@@ -91,15 +91,13 @@ text-decoration: underline;}
     .guachin{font-size: 35px;}
     .barra_nav{padding-top: 5px;}
     .nav_links{font-size: 12px;}
-    .img_uno{width: 400px;
-        height: 400px};
 
 }
 
 @media screen and (max-width: 441px){
     .nav_links{font-size: 16px;}
-    .img_uno{width: 380px;
-    height: 400px};
+    .img_uno{width: 420px;
+    height: 600px};
     .reflexologia{font-size: 5px;}
     h4{font-size: 20px;}
     p{font-size: 15px;}
