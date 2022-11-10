@@ -12,7 +12,10 @@ padding-bottom: 3px;}
 
 
 
-.img_uno{height: 800px;
+.img_uno{display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 800px;
 width: 700px;
 border-radius: 5%;}
 
