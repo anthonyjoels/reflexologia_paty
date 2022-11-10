@@ -90,12 +90,13 @@ text-decoration: underline;}
     .logo_header{width: 115px; height: 115px; }
     .guachin{font-size: 35px;}
     .barra_nav{padding-top: 5px;}
-    .nav_links{font-size: 15px;}
+    .nav_links{font-size: 12px;}
+
 }
 
 @media screen and (max-width: 441px){
     .nav_links{font-size: 16px;}
-    .img_uno{width: 420px;
+    .img_uno{width: 400px;
     height: 400px};
     .reflexologia{font-size: 5px;}
     h4{font-size: 20px;}
