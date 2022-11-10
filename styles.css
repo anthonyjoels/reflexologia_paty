@@ -1,0 +1,108 @@
+.background{background-color: hsla(21, 78%, 60%, 0.885)}
+h2{display: flex;
+align-items: center;
+justify-content: center;
+align-self: center;
+border-top: 02px #000 solid;
+border-bottom: 02px #000 solid;
+background-color: rgb(238, 240, 182);
+padding-top: 3px;
+padding-bottom: 3px;}
+
+
+
+
+.img_uno{height: 800px;
+width: 700px;
+border-radius: 5%;}
+
+.parrafo_uno{display: flex;
+    flex-direction: column;
+    text-align: center;
+
+font-size: 35px;
+padding-bottom: 40px;}
+
+h3{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 65px;
+justify-self: center;
+text-align: center;
+align-self: center;
+padding-bottom: 30px;
+padding-top: 20px;
+
+text-decoration: solid;
+text-decoration: underline;}
+
+
+
+h4{font-size: 40px;
+padding-bottom: 50px;}
+
+
+
+
+
+.footer_uno{background-color: lightgreen; height: 50px; margin-left: 15px;}
+.footer_dos{background-color: darkseagreen; height: 50px; margin-left: -15px;}
+.logo_header{width: 85px; height: 55px; padding-left: 20px;}
+.barra_nav{display: flex;
+justify-content: center;
+justify-items: center;}
+
+.barra_header{display: flex;
+    justify-content: center;
+    justify-items: center;
+;}
+
+
+.nav_links{display: flex;
+    align-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+font-size: 20px;
+text-decoration: solid;
+text-decoration: underline;}
+
+@media screen and (min-width: 992px) {
+    .header{background-color: hsla(21, 78%, 60%, 0.885)}
+    .barra_header{display: flex;
+        justify-content: start;
+        justify-items: start;}
+        
+
+}
+
+
+@media screen and (max-width: 991px){
+    .header{background-color: hsla(21, 78%, 60%, 0.885)}
+    .logo_header{width: 185px; height: 155px; }
+    .guachin{font-size: 55px;}
+    .barra_nav{padding-top: 20px;
+    align-content: space-around;}
+.nav_links{font-size: 34px;}
+.img_uno{}
+}
+
+@media screen and (max-width: 768px){
+    .logo_header{width: 115px; height: 115px; }
+    .guachin{font-size: 35px;}
+    .barra_nav{padding-top: 5px;}
+    .nav_links{font-size: 15px;}
+}
+
+@media screen and (max-width: 441px){
+    .nav_links{font-size: 16px;}
+    .img_uno{width: 420px;
+    height: 400px};
+    .reflexologia{font-size: 5px;}
+    h4{font-size: 20px;}
+    p{font-size: 15px;}
+    h3{font-size: 35px;}
+    .parrafo_dos{text-decoration: solid;
+    text-transform: uppercase;
+font-style: bold;
+text-decoration: underline;}
+}
